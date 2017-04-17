@@ -55,7 +55,7 @@ Hint: Puedes utilizar el validador de la w3c para verificar el resultado
 </html>
 ~~~
 
-![img metacharset](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/13500%p.png)
+![img metacharset](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/13500%20p.png?raw=true)
 
 ##Ejercicio 4:
 
