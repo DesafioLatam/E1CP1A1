@@ -61,7 +61,7 @@ Hint: Puedes utilizar el validador de la w3c para verificar el resultado
 
 ¿Qué le falta al siguiente código para que el título de la página (en el tab), se vea **exactamente** como en la imagen ?
 
-![imagen titulo acento](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/14000%20p.png?raw=true)
+![imagen titulo acento](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/500%20p.png?raw=true)
 
 ~~~html
 <!DOCTYPE html>
@@ -96,7 +96,7 @@ Hint: Puedes utilizar el validador de la w3c para verificar el resultado
 ¿Por qué no se ven los saltos de línea?
 Se pide implementar los cambios necesarios para que visualmente se pueden ver los párrafos.
 
-![imagen sin parrafos](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/500%20p.png?raw=true)
+![imagen sin parrafos](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/14000%20p.png?raw=true)
 
 ~~~html
 <!DOCTYPE html>
