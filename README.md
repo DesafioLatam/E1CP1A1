@@ -55,13 +55,13 @@ Hint: Puedes utilizar el validador de la w3c para verificar el resultado
 </html>
 ~~~
 
-![img metacharset](images/13500 p.png)
+![img metacharset](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/13500 p.png)
 
 ##Ejercicio 4:
 
 ¿Qué le falta al siguiente código para que el título de la página (en el tab), se vea **exactamente** como en la imagen ?
 
-![imagen titulo acento](images/500 p.png)
+![imagen titulo acento](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/500 p.png)
 
 ~~~html
 <!DOCTYPE html>
