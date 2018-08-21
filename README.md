@@ -55,18 +55,19 @@ Hint: Puedes utilizar el validador de la w3c para verificar el resultado
 </html>
 ~~~
 
-![img metacharset](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/13500%20p.png?raw=true)
+![img metacharset](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/13500_p.png?raw=true)
 
 ##Ejercicio 4:
 
-¿Qué le falta al siguiente código para que el título de la página (en el tab), se vea **exactamente** como en la imagen ?
+Si deseo mostrar en la pestaña del navegador el nombre de la página. ¿Qué le falta a este código para que muestre?. Se adjunta imagen de muestra.
 
-![imagen titulo acento](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/500%20p.png?raw=true)
+![imagen titulo acento](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/500_p.png?raw=true)
 
 ~~~html
 <!DOCTYPE html>
 <html>
 <head>
+
 </head>
 <body>
 
@@ -96,16 +97,14 @@ Hint: Puedes utilizar el validador de la w3c para verificar el resultado
 ¿Por qué no se ven los saltos de línea?
 Se pide implementar los cambios necesarios para que visualmente se pueden ver los párrafos.
 
-![imagen sin parrafos](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/14000%20p.png?raw=true)
+![imagen sin parrafos](https://github.com/DesafioLatam/E1CP1A1/blob/master/images/14000_p.png?raw=true)
 
 ~~~html
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
 </head>
 <body>
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio recusandae culpa, repellat ex nobis, qui. Quidem id amet, cumque, porro, et nulla provident, quis eum sequi excepturi incidunt similique voluptatum!
@@ -117,7 +116,7 @@ Se pide implementar los cambios necesarios para que visualmente se pueden ver lo
 
 ##Ejercicio 7:
 
-Encontrar los errores en la siguiente página web y corregirlo, el texto que debe aparecer en pantalla es Párrafo 1
+Encontrar los errores en la siguiente página web y corregirlos, el texto que debe aparecer en pantalla es Párrafo 1
 
 ~~~html
 <!DOCTYPE html>
@@ -180,7 +179,6 @@ Encontrar el error en la siguiente página web y corregirlo.
 	<p color="red"> Párrafo rojo </p>
 </body>
 </html>
-
 ~~~
 
 ##Ejercicio 11:
@@ -192,9 +190,7 @@ Encontrar el error en la siguiente página web y corregirlo.
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
 </head>
 <body>
 
@@ -238,9 +234,7 @@ Corrige la estructura de la siguiente página web.
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
 </head>
 <body>
 
@@ -262,23 +256,19 @@ Corrige la estructura de la siguiente página web.
 
 ##Ejercicio 14:
 
-¿Qué le falta al href del link para que te redirecciones al link deseado?
-
-Además debes lograr que la imagen funcione como un segundo link redirigiendo a Google.
+¿Qué le falta al href del link para que te redirecciones al link deseado?. Además al hacer click sobre la imagen se debe dirigir al sitio de Google, ¿Qué debes agregar?.
 
 ~~~html
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
 </head>
 <body>
 
 	<a href="www.desafiolatam.com">link a Desafío Latam!</a>
-	<img alt="logo.png">
+	<img alt="../logo.png">
 
 </body>
 </html>
@@ -286,16 +276,14 @@ Además debes lograr que la imagen funcione como un segundo link redirigiendo a 
 
 
 ##Ejercicio 15:
-Hay una foto en la carpeta images, la cual no carga :cold_sweat: se pide arreglar la carga.
+Hay una foto en la carpeta `images`, la cual no carga 😥 se pide arreglar la carga.
 
 ~~~html
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
 </head>
 <body>
 
@@ -313,13 +301,11 @@ La estructura de la siguiente página web tiene diversos errores, puedes encontr
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
 </head>
 <body>
 	<img src="logo.png">
-   	<a href="http://www.google.cl"> hola </a>
+   		<a href="http://www.google.cl"> hola </a>
 	</img>
 </body>
 </html>
@@ -334,7 +320,6 @@ Corrige todos los errores (Hint: Son 8)
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 <body>
 	<meta charset="utf-8">
@@ -344,7 +329,7 @@ Corrige todos los errores (Hint: Son 8)
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet voluptate voluptas odit, sapiente soluta consectetur consequuntur ex est dolores laboriosam repudiandae unde repellat velit quo voluptatibus consequatur perferendis, tempore sunt!
 	</p>
 
-	<a href="desafiolatam.com" ><img alt="logo.png"> </a>
+	<a href="desafiolatam.com" ><img alt="../images/logo.png"> </a>
 
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ex, enim ipsum sequi. Dignissimos libero unde repellendus fugit quidem asperiores, veritatis aliquid vel, a eveniet praesentium labore quia dolor, accusamus?
@@ -356,7 +341,7 @@ Corrige todos los errores (Hint: Son 8)
 
 ##Ejercicio 18:
 
-A veces arreglar un error no es suficiente :grin:. En este caso hay dos errores que tienes que modificar para que el texto aparezca con fondo negro y las letras rojas.
+A veces arreglar un error no es suficiente 😣. En este caso hay dos errores que tienes que modificar para que el texto aparezca con fondo negro y las letras rojas.
 
 ~~~html
 <!DOCTYPE html>
@@ -374,7 +359,7 @@ A veces arreglar un error no es suficiente :grin:. En este caso hay dos errores 
 
 ##Ejercicio 19:
 
-¿Qué cambiarías o agregarías al código para que sólo el primer párrafo sea rojo?
+¿Qué agregarías al código para que sólo el primer párrafo sea rojo?
 
 ~~~html
 <!DOCTYPE html>
@@ -430,14 +415,13 @@ Hay un error en el CSS y uno en el HTML, corrígelos.
 
 ##Ejercicio 22:
 
-Corrige los errores para que el color por defecto sea amarillo y  el color del segundo párrafo sea rojo.
+Corrige los errores para que el color por defecto sea amarillo y el color del segundo párrafo sea rojo.
 
 ~~~html
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-
 	<style="color:yellow">
 </head>
 <body>
@@ -459,7 +443,6 @@ Corrige los errores para que el color por defecto sea amarillo y  el color del s
 <head>
 	<meta charset="utf-8">
 	<style>
-
 		<p> {
 			color:  green;
 		}
@@ -518,14 +501,12 @@ Probar con el navegador achicando la pantalla, ¿Cuál es la diferencia?
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
 </head>
 <body>
 
-	<img src="images/logo.png" alt="logo desafio latam" >
-	<img src="images/logo.png" alt="logo desafio latam" >
+	<img src="../images/logo.png" alt="logo desafio latam" >
+	<img src="../images/logo.png" alt="logo desafio latam" >
 
 </body>
 </html>
@@ -540,9 +521,7 @@ Corrige los errores y además modifica el código para que sólo al etiqueta h1 
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
 	<style>
 		font-family: 'Slabo 27px', serif;
 	</style>
